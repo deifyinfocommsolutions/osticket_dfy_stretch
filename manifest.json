@@ -13,12 +13,12 @@
 		"email": "support@deifysolutions.com"
 	},
 	"requirements": {
-        "yunohost": ">= 2.7.0"
+        "yunohost": ">= 2.7.2"
 	},
 	"multi_instance": false,
 	"services": [
 		"nginx",
-		"php7.0-fpm",
+		"php5-fpm",
 		"mysql"
 	],
 	"arguments": {

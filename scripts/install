@@ -132,7 +132,8 @@ fi
 
 cp ../sources/include/ost-config.php $final_path/include/ost-config.php
 chmod 0666 $final_path/include/ost-config.php
-cp ../sources/scp/login.php $final_path/scp/login.php
+cp ../sources/index.php $final_path/index_ldap.php
+cp ../sources/include/plugins/auth-ldap.phar $final_path/include/plugins/auth-ldap.phar
 rm -r $parent_dir/support.zip
 
 #=================================================

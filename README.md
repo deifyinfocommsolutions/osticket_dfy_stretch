@@ -1,2 +1,1 @@
-# Deify Infocomm Solutions Custom Integration for Support
-Supports Debian Stretch.
+# Deify Infocomm Solutions Custom Integration for Support for Debian Stretch
