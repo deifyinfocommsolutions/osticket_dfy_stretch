@@ -6,14 +6,14 @@
 		"en": "Global Service Desk"
 	},
 	"version": "1.0~ynh1",
-	"url": "https://github.com/deifyinfocommsolutions/osticket_dfy",
+	"url": "https://github.com/deifyinfocommsolutions/osticket_dfy_stretch",
 	"license": "GPL-3.0",
 	"maintainer": {
 		"name": "Deify Infocomm Solutions",
 		"email": "support@deifysolutions.com"
 	},
 	"requirements": {
-        "yunohost": ">= 2.7.2"
+        "yunohost": ">= 3.0.0"
 	},
 	"multi_instance": false,
 	"services": [
