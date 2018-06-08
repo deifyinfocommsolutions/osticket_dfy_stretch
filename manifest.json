@@ -1,0 +1,69 @@
+{
+	"name": "Support",
+	"id": "support",
+	"packaging_format": 1,
+	"description": {
+		"en": "Global Service Desk"
+	},
+	"version": "1.0~ynh1",
+	"url": "https://github.com/deifyinfocommsolutions/osticket_dfy",
+	"license": "GPL-3.0",
+	"maintainer": {
+		"name": "Deify Infocomm Solutions",
+		"email": "support@deifysolutions.com"
+	},
+	"requirements": {
+        "yunohost": ">= 2.7.2"
+	},
+	"multi_instance": false,
+	"services": [
+		"nginx",
+		"php5-fpm",
+		"mysql"
+	],
+	"arguments": {
+		"install" : [
+			{
+				"name": "domain",
+				"type": "domain",
+				"ask": {
+					"en": "Choose a domain for Support"
+				},
+				"example": "domain.org"
+			},
+			{
+				"name": "path",
+				"type": "path",
+				"ask": {
+					"en": "Choose a path for Support"
+				},
+				"example": "/support",
+				"default": "/support"
+			},
+			{
+				"name": "admin",
+				"type": "user",
+				"ask": {
+					"en": "Choose the YunoHost user"
+				},
+				"example": "devadmin"
+			},
+			{
+				"name": "sql",
+				"type": "boolean",
+				"ask": {
+					"en": "Create a database?"
+				},
+				"default": true
+			},
+			{
+				"name": "is_public",
+				"type": "boolean",
+				"ask": {
+					"en": "Is it a public website ?"
+				},
+				"default": true
+			}
+		]
+	}
+}

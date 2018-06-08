@@ -1,2 +1,1 @@
-# osticket_dfy_stretch
-Osticket For Stretch
+# Deify Infocomm Solutions Custom Integration for Support
